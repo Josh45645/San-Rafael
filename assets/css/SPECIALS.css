@@ -1,0 +1,270 @@
+.offcontS {
+    padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-height: 100vh;
+    max-width: 1200px; /* Adjust maximum width as needed */
+   
+   
+}
+
+
+
+.brgycardS {
+    position: relative;
+    width: 500vh; /* Set maximum width */
+    height: 30vh; /* Adjust height as needed */
+    margin-bottom: 10%;
+    background: lightblue;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.35);
+    transition:  0.5s; 
+}
+
+.brgycardS:hover, .brgycardS.clicked {
+    height: 500px;
+}
+
+.cdS {
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.brgycardS:hover .cdS, .brgycardS.clicked .cdS {
+    width: 300px;
+    height: 300px;
+}
+
+.cdS img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brgycardS .cntS {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center; 
+    overflow: hidden;
+}
+
+.brgycardS .cntS .detailsS {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(200px);
+}
+
+.brgycardS:hover .cntS .detailsS, .brgycardS.clicked .cntS .detailsS {
+    transform: translateY(40px);
+}
+
+.brgycardS .cntS .detailsS h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: black;
+    line-height: 1.2em;
+}
+
+.brgycardS .cntS .detailsS h2 span {
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.brgycardS .cntS .detailsS .datasS {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.brgycardS .cntS .detailsS .datasS h3 {
+    font-size: 1.5em;
+    color: #555;
+    line-height: 1.2em;
+    font-weight: 300;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.brgycardS .cntS .detailsS .btnS button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #1877F2;
+    font-family: sans-serif, Klavika ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.offcontS2 {
+    padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-height: 100vh;
+    max-width: 1200px; /* Adjust maximum width as needed */
+   
+   
+}
+
+
+
+.brgycardS2 {
+    position: relative;
+    width: 500vh; /* Set maximum width */
+    height: 30vh; /* Adjust height as needed */
+    margin-bottom: 10%;
+    background: lightblue;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.35);
+    transition:  0.5s; 
+}
+
+.brgycardS2:hover, .brgycardS2.clicked {
+    height: 500px;
+}
+
+.cdS2 {
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.brgycardS2:hover .cdS2, .brgycardS2.clicked .cdS2 {
+    width: 300px;
+    height: 300px;
+}
+
+.cdS2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.brgycardS2 .cntS2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center; 
+    overflow: hidden;
+}
+
+.brgycardS2 .cntS2 .detailsS2 {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(160px);
+}
+
+.brgycardS2:hover .cntS2 .detailsS2, .brgycardS2.clicked .cntS2 .detailsS2 {
+    transform: translateY(40px);
+}
+
+.brgycardS2 .cntS2 .detailsS2 h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: black;
+    line-height: 1.2em;
+}
+
+.brgycardS2 .cntS2 .detailsS2 h2 span {
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.brgycardS2 .cntS2 .detailsS2 .datasS2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.brgycardS2 .cntS2 .detailsS2 .datasS2 h3 {
+    font-size: 1.5em;
+    color: #555;
+    line-height: 1.2em;
+    font-weight: 300;
+    opacity: 0.5;
+    font-style: italic;
+}
+
+.brgycardS2 .cntS2 .detailsS2 .btnS2 button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #1877F2;
+    font-family: sans-serif, Klavika ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

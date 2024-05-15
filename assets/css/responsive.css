@@ -1,0 +1,95 @@
+
+
+@media screen and (max-width: 768px) {
+    .wrap1 {
+        width: 90%;
+        font-size: 3em;
+        padding-bottom: 10%;
+        padding-top: 110%;
+}
+    }
+
+@media screen and (max-width: 480px) {
+    .wrap1 {
+        width: 90%;
+        font-size: 3em;
+        padding-bottom: 10%;
+        padding-top: 90%;
+}
+    }
+
+
+
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        width: 90%;
+        font-size: 3em;
+        padding-bottom: 10%;
+
+
+}
+     .offcont{
+        margin-bottom: 380%;
+     }
+     .connect{
+        padding-top: 100%;
+        }
+}
+
+@media screen and (max-width: 480px) {
+    .wrap {
+        
+        width: 90%;
+        font-size: 3em;
+        padding-bottom: 10%;
+        
+    }
+    .offcont{
+        margin-bottom: 380%;
+     }
+     .connect{
+        padding-top: 100%;
+        }
+}
+
+/*average*/
+@media screen and (max-width: 360px) {
+    .wrap1 {
+        width: 90%;
+        font-size: 3em;
+        padding-bottom: 10%;
+        padding-top: 110%;
+}
+
+    }
+
+
+
+
+@media screen and (max-width: 360px) {
+    .wrap {
+        width: 90%;
+        font-size: 3em;
+        padding-bottom: 10%;
+}
+     .offcont{
+        margin-bottom: 380%;
+     }
+     .connect{
+        padding-top: 200%;
+        }
+        .tanod{
+            padding-top: 1000%;
+        }
+        
+}
+
+
+
+@media screen and (max-width: 769px) {
+    
+   .txt{
+font-size: small;
+   }
+}

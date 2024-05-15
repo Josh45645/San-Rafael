@@ -1,0 +1,276 @@
+@media screen and (max-width: 360px) {
+
+
+    .offcontS1 {
+        padding-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-height: 100vh;
+        max-width: 1200px; /* Adjust maximum width as needed */
+       
+       
+    }
+    
+    
+    
+    .brgycardS1{
+        position: relative;
+        width: 250vh; /* Set maximum width */
+        height: 15vh; /* Adjust height as needed */
+        margin-bottom: 10%;
+        background: lightblue;
+        border-radius: 20px;
+        box-shadow: 0 35px 80px rgba(0, 0, 0, 0.35);
+        transition:  0.5s; 
+        
+    }
+    
+    .brgycardS1:hover, .brgycardS1.clicked {
+        height: 350px;
+    }
+    
+    .cdS1 {
+        position: absolute;
+        left: 50%;
+        top: -30%;
+        transform: translateX(-50%);
+        width: 90px;
+        height: 90px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 35px 80px rgba(0, 0, 0, 0.35);
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    .brgycardS1:hover .cdS1, .brgycardS1.clicked .cdS1 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .cdS1 img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .brgycardS1 .cntS1 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center; 
+        overflow: hidden;
+    
+    }
+    
+    .brgycardS1 .cntS1 .detailsS1 {
+        padding: 40px;
+        text-align: center;
+        width: 100%;
+        transition: .4s ease;
+        transform: translateY(260px);
+    }
+    
+    .brgycardS1:hover .cntS1 .detailsS1, .brgycardS1.clicked .cntS1 .detailsS1 {
+        transform: translateY(-0.5px);
+    }
+    
+    .brgycardS1 .cntS1 .detailsS1 h2 {
+        font-size: .8em;
+        font-weight: 600;
+        color: black;
+        line-height: 1.2em;
+    }
+    
+    .brgycardS1 .cntS1 .detailsS1 h2 span {
+        font-size: 0.75em;
+        font-weight: 500;
+        opacity: 0.5;
+    }
+    
+    .brgycardS1 .cntS1 .detailsS1 .datasS1 {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    
+    .brgycardS1 .cntS1 .detailsS1 .datasS1 h3 {
+        font-size: 1em;
+        color: #555;
+        line-height: 1.2em;
+        font-weight: 300;
+        opacity: 0.5;
+        font-style: italic;
+    }
+    
+    .brgycardS1 .cntS1 .detailsS1 .btnS1 button {
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        font-weight: bold;
+        color: white;
+        background-color: #1877F2;
+        font-family: sans-serif, Klavika ;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .offcontS21 {
+        padding-top: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        max-height: 100vh;
+        max-width: 1200px; /* Adjust maximum width as needed */
+    
+    }
+    
+    
+    
+    .brgycardS21 {
+        position: relative;
+        width: 250vh; /* Set maximum width */
+        height: 15vh; /* Adjust height as needed */
+        margin-bottom: 10%;
+        background: lightblue;
+        border-radius: 20px;
+        box-shadow: 0 35px 80px rgba(0, 0, 0, 0.35);
+        transition:  0.5s; 
+        
+    }
+    
+    .brgycardS21:hover, .brgycardS21.clicked {
+        height: 350px;
+    }
+    
+    .cdS21 {
+        position: absolute;
+        left: 50%;
+        top: -30%;
+        transform: translateX(-50%);
+        width: 90px;
+        height: 90px;
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 35px 80px rgba(0, 0, 0, 0.35);
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    .brgycardS21:hover .cdS21, .brgycardS21.clicked .cdS21 {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .cdS21 img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .brgycardS21 .cntS21 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: center; 
+        overflow: hidden;
+    
+    }
+    
+    .brgycardS21 .cntS21 .detailsS21 {
+        padding: 40px;
+        text-align: center;
+        width: 100%;
+       transition: .5ss ease;
+        transform: translateY(200px);
+    }
+    
+    .brgycardS21:hover .cntS21 .detailsS21, .brgycardS21.clicked .cntS21 .detailsS21 {
+        transform: translateY(-0.5px);
+    }
+    
+    .brgycardS21 .cntS21 .detailsS21 h2 {
+        font-size: .8em;
+        font-weight: 600;
+        color: black;
+        line-height: 1.2em;
+    }
+    
+    .brgycardS21 .cntS21 .detailsS21 h2 span {
+        font-size: 0.75em;
+        font-weight: 500;
+        opacity: 0.5;
+    }
+    
+    .brgycardS21 .cntS21 .detailsS21 .datasS21 {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    
+    .brgycardS21 .cntS21 .detailsS21 .datasS21 h3 {
+        font-size: 1em;
+        color: #555;
+        line-height: 1.2em;
+        font-weight: 300;
+        opacity: 0.5;
+        font-style: italic;
+    }
+    
+    .brgycardS21 .cntS21 .detailsS21 .btnS21 button {
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        font-weight: bold;
+        color: white;
+        background-color: #1877F2;
+        font-family: sans-serif, Klavika ;
+    }
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

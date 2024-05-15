@@ -1,0 +1,7 @@
+.cont.card {
+    /* Apply styles to the parent container */
+    padding: 20px; /* Example padding */
+    background-color: #f0f0f0; /* Example background color */
+    border-radius: 10px; /* Example border radius */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}
